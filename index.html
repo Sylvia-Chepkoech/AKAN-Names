@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,57 +9,60 @@
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
-  
+
 </head>
 
 <body>
- 
-    <div class ="container">
-      <div class ="content">
-        <h1>AKAN NAMES</h1>
-        <h2>Did You Know?</h2>
-        <p>The Akan people of Ghana frequently name their children after the day of the week they were born. These "day names" have further meanings concerning the soul and character of the person.<br>You can get to learn more about these <a href="https://en.wikipedia.org/wiki/Akan_names">Akan names.</a><br>Most people dont know what day they were born in but lucky for you, you can get to find out what day you were born in and even your akan name.</p>
-     
-        <!--Form for birthday details-->
-    <form class = "myform" onsubmit="return false" method="post">
-      <legend>Akan Name Generator
-        <hr>
-      </legend>
-      <label for = "birth-year"></label>
+
+  <div class="container">
+    <div class="content">
+      <h1>AKAN NAMES</h1>
+      <h2>Did You Know?</h2>
+      <p>The Akan people of Ghana frequently name their children after the day of the week they were born. These "day
+        names" have further meanings concerning the soul and character of the person.<br>You can get to learn more about
+        these <a href="https://en.wikipedia.org/wiki/Akan_names">Akan names.</a><br>Most people dont know what day they
+        were born in but lucky for you, you can get to find out what day you were born in and even your akan name.</p>
+
+      <!--Form for birthday details-->
+      <form class="myform" onsubmit="return false" method="post">
+        <legend>Akan Name Generator
+          <hr>
+        </legend>
+        <label for="birth-year"></label>
         Year:
         <input type="number" input id="year" name="year-of-birth" min="1900" max="2022" required>
-      <label for ="birth-month"></label>
+        <label for="birth-month"></label>
         Month:
-        <input type="number" input id="month" name="month-of-birth" min="1" max="12"  required>
-      <label for="birth-day"></label>
+        <input type="number" input id="month" name="month-of-birth" min="1" max="12" required>
+        <label for="birth-day"></label>
         Day:
         <input type="number" input id="day" name="day-of-birth" min="1" max="31" required>
-      <br>
-      <!--Select the gender-->
-      <label for="gender">
-        <p>Gender:</p>
-        Male:
-        <input type="radio", input id="male-input", name="gender", required>
-        Female:
-        <input type="radio", input id="female-input", name="gender", required>
-      </label>
-      <br>
-      <br>
-      <input id="submitButton" type="submit" name="" value="Get Your Akan Name">
-      <br>
-      <br>
+        <br>
+        <!--Select the gender-->
+        <label for="gender">
+          <p>Gender:</p>
+          Male:
+          <input type="radio" , input id="male-input" , name="gender" , required>
+          Female:
+          <input type="radio" , input id="female-input" , name="gender" , required>
+        </label>
+        <br>
+        <br>
+        <input id="submitButton" type="submit" name="" value="Get Your Akan Name">
+        <br>
+        <br>
       </form>
-      <form onsubmit ="return clearInput()">
+      <form onsubmit="return clearInput()">
         <input id="clear" type="submit" value="Clear Input">
       </form>
       <hr>
 
       <p id="finalStatement">Input birthday to get Akan details</p>
 
-    </form>
+      </form>
+    </div>
   </div>
-</div>
-  
+
   <script src="/js/index.js"></script>
 
 </body>
