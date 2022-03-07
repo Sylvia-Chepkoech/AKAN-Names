@@ -19,7 +19,36 @@
         <p>The Akan people of Ghana frequently name their children after the day of the week they were born. These "day names" have further meanings concerning the soul and character of the person.<br>You can get to learn more about these <a href="https://en.wikipedia.org/wiki/Akan_names">Akan names.</a><br>Most people dont know what day they were born in but lucky for you you can get to find out what day you were born in and even your akan name.</a></p>
       </div>
     </div>
-    
+    <form class = "myform" onsubmit="">
+      <legend>Akan Name Generator
+        <hr>
+      </legend>
+      <label for = "birth-year">
+        <br>
+        Year:
+        <input type="number", input id="year-input", name="year-of-birth", placeholder="YYYY e.g 1998", value="" required>
+      </label>
+      <br>
+      <label for ="birth-month">
+        <br>
+        Month:
+        <input type="number", input id="month-input", name="month-of-birth", placeholer="MM e.g May=05", value="" required>
+      </label>
+      <br>
+      <label for="birth-day">
+        <br>
+        Day:
+        <input type="number", input id="day-input", name="day-of-birth", placeholder="DD e.g 21", value="" required>
+      </label>
+      <br>
+      <label for="gender">
+        <p>Gender;</p>
+        Male:
+        <input type="radio", input id="male-input", name="gender", value="" required>
+        Female:
+        <input type="radio", input id="female-input", name="gender", value="" required>
+      </label>
+    </form>
     
   </section>
   <script src="./js/bootstrap.min.js"></script>
