@@ -4,7 +4,7 @@ body {
   width: 100vw;
   height: 150vh;
   text-align: center;
-  background-image: url(../images/black1.jpg);
+  background-color: bisque;
   
 
 }
@@ -95,5 +95,5 @@ legend {
 
 }
 #finalStatement {
-  color: white;
+  color: #000000;
 }
