@@ -1,21 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(../images/background2.jpg);
-  background-repeat: no-repeat;
-  background-size:cover ;
   width: 100vw;
   height: 150vh;
   text-align: center;
+  background-image: url(../images/black1.jpg);
+  
+
 }
 
-.content {
-  background-color: blanchedalmond;
+.myform {
+  background-image: url(/images/woman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: auto;
   width: 70%;
   height: 165%;
-  opacity: 0.7;
-  font-size: 17px;
+  font-size: 13px;
+  border: 5px #000034;
 }
 
 .container {
@@ -27,6 +29,10 @@ body {
   border-radius: 0.5%;
   height: 50%;
   color: #000000;
+  background-image: url(/images/african.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.7;
 }
 
 #year {
@@ -54,7 +60,7 @@ body {
 #submitButton {
   border-radius: 10px;
   width: 170px;
-  height: 30px;
+  height: 25px;
   box-shadow: 2px 2px #000000;
   text-align: center;
   background-color: brown;
@@ -63,7 +69,7 @@ body {
 #clear {
   border-radius: 10px;
   width: 100px;
-  height: 30px;
+  height: 25px;
   box-shadow: 2px 2px #000000;
   text-align: center;
   background-color: brown;
@@ -87,4 +93,7 @@ legend {
   font-family: fantasy;
   color: #000000;
 
+}
+#finalStatement {
+  color: white;
 }
