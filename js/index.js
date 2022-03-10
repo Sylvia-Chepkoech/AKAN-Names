@@ -79,6 +79,7 @@ function generateAkanName (){
 
   //set final sattement
   finalStatementElement.innerText = finalStatement
+  
  })
 }
 
